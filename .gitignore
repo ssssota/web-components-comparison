@@ -1,0 +1,10 @@
+node_modules
+dist
+stencil-dist
+.stencil
+www
+loader
+*.local
+.DS_Store
+.vite
+*.tsbuildinfo

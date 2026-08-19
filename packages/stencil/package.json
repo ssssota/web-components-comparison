@@ -1,0 +1,21 @@
+{
+  "name": "@wcc/stencil",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "stencil build && vite build",
+    "dev": "stencil build && vite build --watch"
+  },
+  "dependencies": {
+    "@wcc/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.44.0",
+    "typescript": "~5.8.3",
+    "vite": "^8.2.1"
+  }
+}

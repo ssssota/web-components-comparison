@@ -1,0 +1,24 @@
+{
+  "name": "@wcc/shell",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wcc/lit": "workspace:*",
+    "@wcc/preact": "workspace:*",
+    "@wcc/shared": "workspace:*",
+    "@wcc/stencil": "workspace:*",
+    "@wcc/svelte": "workspace:*",
+    "@wcc/vanilla": "workspace:*",
+    "@wcc/vue": "workspace:*",
+    "@wcc/vue-vapor": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^8.2.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": ["DOM", "ES2022"],
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src"]
+}

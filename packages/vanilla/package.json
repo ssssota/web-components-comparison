@@ -1,0 +1,19 @@
+{
+  "name": "@wcc/vanilla",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "@wcc/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1"
+  }
+}
